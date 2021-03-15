@@ -1,0 +1,469 @@
+.body {
+  font-family: "Spartan", sans-serif;
+  background-color: rgba(255, 255, 255);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #ffefef;
+  z-index: 1;
+}
+.navbar .navbar-brand {
+  color: #ab3b61;
+}
+.navbar .nav-item a {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Home Head Start */
+.home-head {
+  background-color: #ffefef;
+  transform: skew(0deg,-10deg) translateY(-60px);
+}
+.home-head .container{
+  transform: skew(0deg,10deg);
+}
+
+.home-head-left {
+  padding: 100px 0;
+}
+.home-head-left .name {
+  font-weight: 900;
+  color: black;
+  font-size: 46px;
+}
+.home-head .nav-item {
+  font-weight: 600;
+}
+.home-head .portfolio {
+  font-size: 18px;
+  background-color: white;
+}
+.home-head .portfolio .btn
+{
+  border-radius: 0;
+}
+.home-head .portfolio .fa-arrow-right
+{
+  background-color: #ab3b61;
+  border-radius: 0px;;
+}
+.home-head .my-img {
+  height: 420px;
+}
+.home-head .leaf
+{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 35%;
+  top:45%;
+}
+/* Home Head End */
+.leaf-design .olive
+{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 14%;
+  top: 80%;
+  background: transparent;
+}
+/* Basic Info Start */
+.basic-info {
+  padding: 70px 0px 100px 0;
+  font-family: "Spartan", sans-serif;
+}
+.basic-info .ct-now {
+  color: #272dc1;
+}
+.basic-info .basic-info-title {
+  font-size: 46px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 900;
+  color: #141536;
+}
+.basic-info .icons i {
+  font-size: 25px;
+  border-radius: 2px;
+}
+.basic-info .icons .descrip .full-name,
+.email,
+.phone,
+.website {
+  color: gray;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Spartan", sans-serif;
+}
+.basic-info .icons .descrip h6 {
+  font-weight: 600;
+  font-size: 14px;
+}
+/* Basic Info End */
+.services {
+  padding: 100px 0;
+  background-color: #ffefef;
+}
+.services .experties{
+  font-family: 'Rubik', sans-serif;
+}
+.services .icons{
+  color: blue;
+}
+.services .title{
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+.services small{
+  font-size: 15px;
+}
+.service-card {
+  padding: 15px 0;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.service-card .service-title {
+  font-size: 20px;
+
+}
+
+.about-me {
+  padding: 100px 0;
+
+}
+.about-me-title
+{
+  border-right:5px solid red;
+  font-size: 45px;
+  font-weight: 900;
+  font-family: 'Rubik', sans-serif;
+}
+.abt-me{
+  font-size:20px;
+  color: #ab3b61;
+}
+.about-me .para
+{
+  border-left: 5px solid red;
+  padding-left: 10px;
+}
+.about-me img {
+  height: 450px;
+  width: 350px;
+  transform: rotate(-10deg);
+}
+.about-me .nav-item {
+  font-weight: 600;
+}
+.about-me .portfolio {
+  font-size: 18px;
+  background-color: rgb(241, 241, 248);
+}
+.about-me .portfolio .btn
+{
+  border-radius: 0;
+}
+.about-me .portfolio .fa-arrow-right
+{
+  background-color: #ab3b61;
+  border-radius: 0px;;
+}
+
+.skills {
+  background-color: #ffefef;
+  padding: 35px 0;
+}
+.skills .icons
+{
+  color: blue;
+}
+.latest-work {
+  padding: 100px 0;
+}
+.latest-work .lt-work
+{
+  font-family: 'Rubik', sans-serif;
+}
+.latest-work .blog-img {
+  max-height: 200px;
+  max-width: 480px;
+}
+
+/* portfolio start */
+.portfolio {
+  /* height:75rem; */
+  background-color: #ccc7c7;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.portfolio .row {
+  margin-left: 100px;
+}
+.portfolio h1 {
+  font-size: 40px;
+  margin-left: 580px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+.portfolio .box {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  background-color: royalblue;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.portfolio .secondbox {
+  height: 460px;
+}
+.portfolio .fivebox {
+  height: 455px;
+  margin-top: 5px;
+}
+.latest-work .box .image-box {
+  position: relative;
+  overflow: hidden;
+}
+.latest-work .box .image-box img {
+  width: 350px;
+  transition: transform 2s;
+  height: 450px;
+}
+.latest-work .box .image-box #secondimage {
+  height: 460px;
+}
+.latest-work .box .image-box #fiveimage {
+  height: 455px;
+}
+.latest-work .hover-effect:hover img {
+  transform: scale(0.8);
+}
+.latest-work .container .box .details {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  bottom: 5px;
+  right: 5px;
+  background-color: rgb(39, 64, 139);
+  opacity: 0.8;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  box-sizing: border-box;
+}
+.latest-work .hover-effect:hover .details {
+  transform: scaleX(1);
+}
+.latest-work .box .details .content {
+  position: absolute;
+  top: 20%;
+  transform: translateY(-20%);
+}
+.latest-work .box .details .content h6 {
+  padding-left: 20px;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+}
+.latest-work .box .details .content h5 {
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: hsl(0, 0%, 100%);
+}
+
+/* Portfolio End */
+/* Working Style Start */
+.working-style
+{
+  padding: 70px 0;
+  background-color: #ffefef;
+}
+
+.working-style .working-style-subtitle
+{
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
+.working-style .working-style-title
+{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+}
+.working-style  .description .des-text
+{
+  font-size: 14px;
+  text-align:justify ;
+}
+.working-style .icons
+{
+  color: blue;
+}
+/* Working style end */
+/* Job Experience Start */
+.job-experience
+{
+  padding: 80px 0;
+}
+.job-experience .job-exp-title
+{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+}
+.job-experience .job-profile-img
+{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+
+.job-experience .c-name-title,.address-title,.experience-title
+{
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+.job-experience .c-name,.address
+{
+  font-size: 18px;
+  margin-top: 5px;
+}
+.job-experience .experience{
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 35px;
+}
+.job-experience .icons{
+  font-size: 20px;
+}
+.job-experience  .contacts
+{
+  font-size: 18px;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 200;
+}
+.job-experience .exp-left-part
+{
+  border-right: 2px solid orange;
+}
+.job-experience .phone i{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: orange;
+  padding: 8px;
+  font-size: 18px;
+}
+.job-experience .phone span{
+  font-size: 16px;
+}
+.job-experience .email i
+{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: orange;
+  padding: 6px;
+  font-size: 18px;
+}
+.job-experience .email span{
+  font-size: 18px;
+}
+/* Job Experience End */
+
+/* Contact Section Start */
+.contact-section
+{
+  padding: 80px 0;
+  margin-top: 70px;
+}
+.contact-section .contact-title
+{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+}
+.contact-section .get-in-touch
+{
+  padding-bottom: 50px;
+}
+.contact-section .img-section
+{
+  background-color: #ebf3f1;
+}
+.contact-section .img-section img{
+  width: 100%;
+  height: 350px;
+}
+.contact-section .img-section .contact-title
+{
+  font-family: 'Poppins',sans-serif;
+  font-weight: 300;
+
+}
+.contact-section .img-section .sub-title
+{
+  font-size: 15px;
+}
+.contact-section .contact-field label
+{
+  font-family: 'Rubik', sans-serif;
+}
+.contact-section .submit
+{
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+.contact-section .contact-info
+{
+  box-shadow: 5px 5px 10px 5px #aaaaaa;
+}
+.contact-section {
+  background-color: #ffefef;
+  transform: skew(0deg,-10deg) translateY(-60px);
+}
+.contact-section .container{
+  transform: skew(0deg,0deg);
+}
+
+/* Footer Start */
+.footer
+{
+  padding: 50px 0;
+  margin-top:59px;
+  background-color:  #ffefef;
+}
+.footer .ft-title
+{
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+.footer .ft-subtitle{
+  font-size: 18px;
+  font-family: 'Galdeano', sans-serif;
+
+}
+.footer .ft-com{
+  font-size: 16px;
+
+  font-family: 'Galdeano', sans-serif;
+}
+/* Footer Start */
+
+
+@media only screen and (max-width: 600px) {
+  .home-head .name{
+    font-size:30px;
+  }
+  .about-me .next p {
+    font-size: 14px;
+  };
+}
+
